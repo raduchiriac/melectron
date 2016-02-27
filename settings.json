@@ -1,0 +1,17 @@
+{
+  "electron": {
+    "name": "BXL Meetup",
+    "version": "0.1.0",
+    "description": "",
+    "height": 600,
+    "width": 1024,
+    "frame": true,
+    "title-bar-style": "hidden",
+    "resizable": true,
+    "autoPackage": true,
+    "protocols": [{
+      "name": "MyApp",
+      "schemes": ["myapp"]
+    }]
+  }
+}

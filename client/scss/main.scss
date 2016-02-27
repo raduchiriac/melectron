@@ -1,0 +1,30 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 1em;
+  margin: 0;
+  font-family: sans-serif;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: center;
+  li {
+    position: relative;
+    img {
+      display: block;
+    }
+    p {
+      position: absolute;
+      bottom: 0;
+      padding: 1em;
+      background-color: rgba(white, 0.9);
+      margin: 0;
+      width: 100%;
+    }
+  }
+}
